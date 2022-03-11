@@ -1,0 +1,76 @@
+# Created by Ultra Librarian Gold 8.3.261 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'PG-TO220-3_INF.pac';
+Change Drill 44;
+Pad '1' Square 0 64 R0 (0 0);
+Change Drill 44;
+Pad '2' Round 0 64 R0 (100 0);
+Change Drill 44;
+Pad '3' Round 0 64 R0 (200 0);
+Layer 21;
+Wire 6 (-101 66) (301 66);
+Wire 6 (-106 -67) (306 -67);
+Wire 6 (306 -67) (306 116);
+Wire 6 (306 116) (-106 116);
+Wire 6 (-106 116) (-106 -67);
+Wire 6 (-168 0) -180 (-184 0);
+Wire 6 (-184 0) -180 (-168 0);
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (32 0);
+Layer 51;
+Wire 6 (-101 61) (301 61);
+Wire 6 (-101 -62) (301 -62);
+Wire 6 (301 -62) (301 111);
+Wire 6 (301 111) (-101 111);
+Wire 6 (-101 111) (-101 -62);
+Wire 0 (-83 -52) -180 (-99 -52);
+Wire 0 (-99 -52) -180 (-83 -52);
+Change Size 25;
+Change Ratio 4;
+Text 'TAB' SR0 (66 74);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-29 0);
+Layer 27;
+
+Edit 'IRF3205PBF.sym';
+Layer 94;
+Pin 'G' Pas None Middle R0 Both 0 (100 0)
+Pin 'S' Pas None Middle R180 Both 0 (1500 -100)
+Pin 'D' Pas None Middle R180 Both 0 (1500 0)
+Wire 6 (300 200) (300 -300);
+Wire 6 (300 -300) (1300 -300);
+Wire 6 (1300 -300) (1300 200);
+Wire 6 (1300 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (614 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (589 259);
+
+Edit 'IRF3205PBF.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add IRF3205PBF 'A' Next  0 (0 0);
+Package 'PG-TO220-3_INF';
+Technology '';
+Attribute Vendor 'Infineon';
+Attribute Manufacturer_Part_Number 'IRF3205PBF';
+Attribute Built_By 'EMA_UL_Team';
+Attribute Copyright 'Copyright (C) 2018 Accelerated Designs. All rights reserved';
+Attribute SourceLibrary 'Infineon_2019-12-20';
+Connect 'A.G' '1';
+Connect 'A.S' '2';
+Connect 'A.D' '3';
