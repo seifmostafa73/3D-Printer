@@ -26,3 +26,16 @@ include 512 kB of flash memory, 64 kB of data memory, Ethernet MAC, USB Device/H
 
 # 3D preview
 https://a360.co/3tKiZm6
+
+# ScreenShots
+
+[Motherboard V1.1.pdf](https://github.com/seifmostafa73/3D-Printer/files/8233542/Motherboard.V1.1.pdf)
+
+![image](https://user-images.githubusercontent.com/55613060/157905549-d227a3bf-5780-450f-80e0-1b8e74f4285c.png)
+
+![image](https://user-images.githubusercontent.com/55613060/157905429-4a9889e8-7d54-4cd2-a046-49f7139f74f7.png)
+
+
+![Motherboard V1 1](https://user-images.githubusercontent.com/55613060/157905972-e3f2ec4c-ff04-4f38-b5d7-acfd613edec9.png)
+
+![Motherboard V1 1 B](https://user-images.githubusercontent.com/55613060/157905978-ff11cfeb-7d31-4c6f-943e-a659265443ac.png)
